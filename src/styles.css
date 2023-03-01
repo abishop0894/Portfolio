@@ -1,0 +1,229 @@
+.rechart {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 70vw !important;
+  height: auto !important;
+  min-height: 50vh !important;
+}
+
+.pie {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+  min-height: 50vh;
+}
+
+.left {
+  display: flex;
+  width: 100;
+}
+
+.pieCharts {
+  display: flex !important;
+  flex-direction: row;
+  width: 100vw;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 30vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  padding-right: 2.5vw;
+}
+
+button {
+  border: 0px !important;
+}
+
+.MuiSpeedDial-fab {
+  background-color: #60a5fa !important;
+}
+
+.TwoColContactUsWithIllustrationFullForm__TwoColumn-sc-wvhfvq-1 {
+  padding: 0px !important;
+}
+
+.light___StyledMenuIcon-sc-1gnchc1-15 {
+  stroke: #60a5fa;
+  border: 0px !important;
+}
+
+.EkNBJ:focus {
+  color: #60a5fa !important;
+}
+
+.light___StyledCloseIcon-sc-1gnchc1-14 {
+  color: #60a5fa !important;
+}
+
+.light__NavToggle-sc-1gnchc1-9 {
+  border: 0px !important;
+}
+
+.btn-close {
+  background: transparent url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23000%27%3e%3cpath d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/%3e%3c/svg%3e") center/1em auto no-repeat !important;
+  color: black !important;
+}
+
+.projBody {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow: auto !important;
+  column-gap: 5vw;
+  row-gap: 5vh;
+  padding-right: 5vw !important;
+}
+
+.experience {
+  margin-bottom: 51vh !important;
+}
+
+.modal-header {
+  background-color: #60a5fa !important;
+  color: white !important;
+}
+
+.btn-close {
+  color: white !important;
+}
+
+@media only screen and (min-width: 1900px) {
+  .projBody {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    overflow: auto !important;
+    justify-content: center !important;
+    column-gap: 9.5vw;
+    row-gap: 5vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .rechart {
+    display: flex !important;
+    width: 432.5px !important;
+    height: 50vh !important;
+    padding-right: 43vw;
+    margin-bottom: 10vh;
+  }
+
+  .pieCharts {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-content: center;
+    justify-items: center;
+    height: fit-content;
+    padding-right: 13vw;
+  }
+
+  .projBody {
+    padding-right: 0px !important;
+  }
+}
+
+@media (width: 414px) {
+  .rechart {
+    display: flex !important;
+    width: 432.5px !important;
+    height: 50vh !important;
+    padding-right: 38vw;
+  }
+
+  .pieCharts {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-content: center;
+    justify-items: center;
+    height: fit-content;
+    padding-right: 13vw;
+  }
+}
+
+@media (width: 412px) {
+  .rechart {
+    display: flex !important;
+    width: 432.5px !important;
+    height: 50vh !important;
+    padding-right: 35.5vw;
+  }
+
+  .pieCharts {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-content: center;
+    justify-items: center;
+    height: fit-content;
+    padding-right: 13vw;
+  }
+}
+
+@media (width: 360px) {
+  .rechart {
+    display: flex !important;
+    width: 432.5px !important;
+    height: 50vh !important;
+    padding-right: 50vw;
+  }
+
+  .pieCharts {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-content: center;
+    justify-items: center;
+    height: fit-content;
+    padding-right: 12.2vw;
+  }
+}
+
+@media (width: 540px) {
+  .rechart {
+    display: flex !important;
+    width: 432.5px !important;
+    height: 50vh !important;
+    padding-right: 13vw;
+  }
+
+  .pieCharts {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-content: center;
+    justify-items: center;
+    height: fit-content;
+    padding-right: 13vw;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .pieCharts {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    height: fit-content;
+    gap: 2px !important;
+  }
+
+  .projBody {
+    padding-right: 0px !important;
+  }
+}
+
+.body {
+  scroll-snap-type: y;
+}
