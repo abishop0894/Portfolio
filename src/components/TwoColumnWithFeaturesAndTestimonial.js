@@ -52,7 +52,7 @@ export default ({
     <>
       I create modern, sophisticated web applications using the most in-demand
       languages, libraries, and frameworks. Currently, I’m a React Developer at{" "}
-      <Link href="https://joinjoyfully.com/encouragement">Joyfully</Link>.{" "}
+      <Link href="http://bit.ly/joinjoyfullyfree">Joyfully</Link>.{" "}
     </>
   ),
   imageSrc = "https://cdn.discordapp.com/attachments/980168318151450717/1050593158532186222/Facetune_08-12-2022-21-00-18.jpg",
@@ -71,7 +71,7 @@ export default ({
     <NavLinks key={2}>
       <PrimaryLink
         css={buttonRoundedCss}
-        href="https://portfoliosite123.s3.amazonaws.com/Al+Bishop+Resume.pdf"
+        href="https://portfoliosite123.s3.amazonaws.com/Al+Bishop+Resume+(9).pdf"
       >
         Resume
       </PrimaryLink>

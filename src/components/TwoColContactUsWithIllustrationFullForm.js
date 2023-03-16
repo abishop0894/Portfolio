@@ -65,12 +65,12 @@ export default ({
       improve my skillset. I keep up with daily industry updates via
       subscription to newsletters like <span tw="text-blue-400">TLDR</span> and
       blogs like <span tw="text-blue-400">Medium</span>. In addition to the
-      technologies listed below, I have experience building AI software, working
-      with and building containers using <span tw="text-blue-400">Docker</span>,
-      cloud hosting and storage using <span tw="text-blue-400">AWS</span>,
-      reactive programming using <span tw="text-blue-400">RxJS</span> and DOM
-      manipulation libraries such as <span tw="text-blue-400">JQuery</span>. I
-      also have experience working with <span tw="text-blue-400">GSAP</span>,{" "}
+      technologies listed below, working with and building containers using{" "}
+      <span tw="text-blue-400">Docker</span>, cloud hosting and storage using{" "}
+      <span tw="text-blue-400">AWS</span>, reactive programming using{" "}
+      <span tw="text-blue-400">RxJS</span> and DOM manipulation libraries such
+      as <span tw="text-blue-400">JQuery</span>. I also have experience working
+      with <span tw="text-blue-400">GSAP</span>,{" "}
       <span tw="text-blue-400">Styled Components</span>,{" "}
       <span tw="text-blue-400">Framer Motion</span> and{" "}
       <span tw="text-blue-400">Twin Macro</span> which were used to build this

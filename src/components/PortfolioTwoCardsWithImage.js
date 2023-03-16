@@ -42,7 +42,6 @@ const CardColumn = tw(
 
 const HeadingInfoContainer = tw.div`text-center xl:text-left max-w-lg xl:max-w-none mx-auto xl:mx-0`;
 const HeadingTitle = tw(SectionHeading)`mt-4 xl:text-left leading-tight`;
-const HeadingDescription = tw.p`text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100 mt-8`;
 const PrimaryLink = styled(PrimaryLinkBase)`
   ${tw`inline-flex justify-center xl:justify-start items-center mt-8 text-lg`}
   svg {
@@ -110,7 +109,7 @@ export default ({
       type: "Professional",
       icons: [react, node, mui],
       description:
-        "Mobot is an AI chatbot I built for a development company I co-own with a friend, Modernistic Technology. Users are able to query GPT-3 via text prompt or voice-to-text prompt, and adjust temperature for a wider variety of responses. It's fully optimized for all devices.",
+        "Mobot is an AI chatbot I built for the development company I co-own, Modernistic Technology. Users are able to query GPT-3 via text prompt or voice-to-text prompt, and adjust temperature for a wider variety of responses. It's fully optimized for all devices. Mobot will soon be migrated to GPT-4.",
       technologies: "ReactJS, NodeJs, Express, Mui",
       projectUrl: "https://www.mobotai.app",
       repoUrl: "https://github.com/abishop0894/mobot-mern",
@@ -121,10 +120,19 @@ export default ({
       project: "Joyfully",
       type: "Professional",
       icons: [react, node, firebase, aws],
-      description:
-        "Joyfully is a mental health awareness app that connects users with trained staff that can relate to their problems. Its built on React, Express, and Node with Firebase as the database. I work primarily on the client end alongside a team of highly-skilled developers. We work with Trello at Joyfully, and most of my tickets have involved building out new features, as the app has yet to hit production.",
+      description: (
+        <>
+          Joyfully is a mental health awareness app that connects users with
+          trained staff that can relate to their problems. Its built with React,
+          Express, Node, and Firebase. I work primarily on the client end
+          alongside a very small group of developers, building and maintaining
+          user facing components. Notable customers of Joyfully include{" "}
+          <span tw="text-blue-400">Viacom</span>, and the{" "}
+          <span tw="text-blue-400">London Stock Exchange Group</span>.
+        </>
+      ),
       technologies: "ReactJS, NodeJs, Express, Firebase, Redux, AWS amplify",
-      projectUrl: "https://www.joinjoyfully.com/",
+      projectUrl: "http://bit.ly/joinjoyfullyfree",
     },
   ];
 

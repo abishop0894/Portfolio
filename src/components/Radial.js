@@ -41,7 +41,6 @@ export default class Radial extends PureComponent {
       endAngle,
       fill,
       payload,
-      percent,
     } = props;
     const sin = Math.sin(-RADIAN * midAngle);
     const cos = Math.cos(-RADIAN * midAngle);

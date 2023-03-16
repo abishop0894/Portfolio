@@ -80,6 +80,10 @@ button {
   padding-right: 5vw !important;
 }
 
+.qdIqs {
+  -webkit-border-before: 1px solid black !important;
+}
+
 .experience {
   margin-bottom: 51vh !important;
 }
